@@ -14,6 +14,16 @@
 /*Шрифт основной Roboto 400, 500, 700, 900 */
 /*Шрифт основной Raleway 700 */
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 :root {
   --color-black: #000000;
   --color-white: #ffffff;
@@ -36,6 +46,11 @@ body {
 
 .list {
   list-style: none;
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 /*Лого в шапке*/
